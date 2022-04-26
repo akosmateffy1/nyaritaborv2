@@ -1,0 +1,246 @@
+main{
+    background-color: #F5F5DC;
+}
+
+
+.about{
+  width: 100%;
+  height: 100vh;
+  background-color: #F5F5DC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .content img{
+  height: auto;
+  width: 600px;
+  max-width: 100%;
+  border-radius: 15px;
+}
+.text{
+  width: 550px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+.content{
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.text h1{
+  color: black;
+  font-size: 85px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.text h5{
+  color: black;
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.text p{
+  color: black;
+  font-size: 18px;
+  line-height: 28px ;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+}
+button{
+  border: 2px solid transparent;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: bold;
+}
+button:hover{
+  transform: scale(1.2);
+  transition: .4s;
+  cursor: pointer;
+}
+@media screen and ( max-width: 1180px ) {
+  .about{
+      width: 100%;
+      height: auto;
+      padding: 70px 0px;
+  }
+}
+@media screen and (max-width: 650px ) {
+  .about .content img{
+      margin-bottom: 35px;
+  }
+  .text h1{
+      font-size: 60px;
+      margin-bottom: 25px;
+  }
+}
+
+.btn{
+  height: 130px;
+  width: 180px;
+  margin: 5px;
+}
+/*Bejelentkezés navbar*/
+
+
+/**/
+.kep1{
+  height: 45px;
+  text-align: left;
+}
+
+.btn1{
+    margin: 2px;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    background-color: #0d6efd;
+    color: white;
+}
+/*Regisztráció navbar*/
+.btn2{
+    margin: 2px;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    background-color: #198754;
+    color: white;
+}
+
+.hr1{
+  margin: 0 auto 0;
+  width: 30%;
+}
+.h2{
+  text-align: center;
+}
+
+
+.selection1{        
+  width: 800px;
+  height: 1350px;
+  margin: 0 auto 0;
+  display: flexbox;
+}
+
+
+.aligned {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.kep6{
+  height: 300px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+span {
+  padding: 10px;
+}
+  
+  .class_name { 
+      display: flex;
+      align-items:center;
+  }
+
+
+
+
+/* Footer */
+.footer-clean {
+    padding:50px 0;
+    background-color:#fff;
+    color:#4b4c4d;
+  }
+  
+  .footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-clean .item.social {
+    text-align:right;
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-clean .item.social {
+      text-align:center;
+    }
+  }
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-clean .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  @media (max-width:991px) {
+    .footer-clean .item.social > a {
+      margin-top:40px;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item.social > a {
+      margin-top:10px;
+    }
+  }
+  
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+  }
+  
